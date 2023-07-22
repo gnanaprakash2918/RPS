@@ -40,3 +40,8 @@ body {
   outline: none;
   border: none;
 }
+
+.restart-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
