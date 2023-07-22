@@ -19,6 +19,7 @@ function play(e) {
 
   const winner = getWinner(playerChoice, computerChoice);
   showWinner(winner, computerChoice);
+  //   clearModal();
 }
 
 //get game winner
@@ -75,5 +76,10 @@ function showWinner(winner, computerChoice) {
   modal.style.display = "block";
 }
 
+function clearModal(e) {
+  if (e.target == modal) modal.style.display = "none";
+}
+
 //Event listeners
 choices.forEach((choice) => choice.addEventListener("click", play));
+window.addEventListener("click", clearModal);
