@@ -24,3 +24,12 @@
   animation: modalopen;
   animation-duration: var(--modal-duration);
 }
+
+.modal-content h1 {
+  margin-bottom: 1rem;
+}
+
+.modal-content p {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
