@@ -54,3 +54,16 @@ body {
 .header h1 {
   margin-bottom: 1rem;
 }
+
+.score {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.score p {
+  background-color: aqua;
+  width: 50%;
+}
