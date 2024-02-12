@@ -33,9 +33,9 @@ function getWinner(playerSelection, computerSelection) {
 
   if (playerSelection == "rock") {
     if (computerSelection == "paper") {
-      return "player";
-    } else if (computerSelection == "scissors") {
       return "computer";
+    } else if (computerSelection == "scissors") {
+      return "player";
     }
   } else if (playerSelection == "paper") {
     if (computerSelection == "rock") {
@@ -89,3 +89,12 @@ function clearModal(e) {
 //Event listeners
 choices.forEach((choice) => choice.addEventListener("click", play));
 window.addEventListener("click", clearModal);
+
+
+var rel = document.getElementById("restart");
+rel.addEventListener("click",restartgame);
+
+function restartgame()
+{
+  
+}
